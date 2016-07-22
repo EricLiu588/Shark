@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.heroliu.www.shark.WelcomeActivity"
+    android:background="@drawable/wbg">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shark"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:textColor="#015176"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_regist"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.45"
+            android:text="@string/regist"
+            />
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.45"
+            android:text="@string/login"/>
+    </LinearLayout>
+
+</RelativeLayout>

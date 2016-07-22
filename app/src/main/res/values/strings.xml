@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shark</string>
+    <string name="regist">现在注册</string>
+    <string name="login">立即登录</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_regist">RegistActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main">Shark</string>
+    <string name="user_profile_photo">https://avatars1.githubusercontent.com/u/6947495?v=3&amp;s=460</string>
+    <string name="title_activity_detail">详情</string>
+    <string name="title_activity_joke">笑料百科</string>
+    <string name="title_activity_add_news">添加公告</string>
+</resources>
